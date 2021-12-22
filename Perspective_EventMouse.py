@@ -16,7 +16,7 @@ def uniendo4puntos(puntos):
 puntos =[]
 imagen = cv2.imread('gato.jpeg')
 aux = imagen.copy()
-cv2.namedWindow(imagen,'IMAGEN DE PRUEBA')
+cv2.namedWindow('IMAGEN DE PRUEBA')
 cv2.setMouseCallback('IMAGEN DE PRUEBA', clic)
 
 while True:
